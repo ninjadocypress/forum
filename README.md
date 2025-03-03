@@ -53,7 +53,7 @@ Na aba **Discussions** basta clicar no botão **New discussion**, na próxima p�
 - 💭 **Discussão**: Proponha discussões ou reflexões sobre assuntos relacionados a Testes de Software.
 - 🔗 **Dicas**: Compartilhe dicas e links interessantes que você achou.
 - 🎨 **Mostre seu trabalho**: Divulgue seu trabalho, peça feedback e compartilhe sua experiência.
-- 🎓 **Suporte**: Use essa categoria para abrir tickets de suporte exclusivamente para assuntos relacionados às aulas dos cursos pagos na QAninja 🤜🤛
+- 🎓 **Suporte**: Use essa categoria para abrir tickets de suporte exclusivamente para assuntos relacionados ao curso Ninja do Cypress 🤜🤛
 
 Após selecionar a categoria, basta adicionar um título bem detalhado e caprichar no texto. Lembre-se de seguir os passos corretos conforme orientação abaixo:
 
