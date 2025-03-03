@@ -1,13 +1,70 @@
-## 🆘 Pedido de Suporte
+name: "Pedido de Suporte"
+description: "Use este template para solicitar suporte sobre aulas do Curso Ninja do Cypress."
+body:
+  - type: markdown
+    attributes:
+      value: "## 🆘 Pedido de Suporte\n\nPreencha as informações abaixo para que possamos te ajudar da melhor forma possível!"
+  
+  - type: input
+    id: module
+    attributes:
+      label: "📌 Módulo/Conteúdo"
+      description: "Informe o nome do módulo ou conteúdo onde surgiu a dúvida."
+    validations:
+      required: true
 
-📌 **Módulo/Conteúdo:** <nome do módulo ou conteúdo>  
-🎥 **Nome da aula:** <nome da aula>  
-📝 **Descrição:**  
-<Detalhe ao máximo o seu problema, explique o que tentou fazer e o que não funcionou.>  
+  - type: input
+    id: lesson
+    attributes:
+      label: "🎥 Nome da aula"
+      description: "Informe o nome da aula específica."
+    validations:
+      required: true
 
-🖥️ **Evidências:**  
-<Adicione prints, mensagens de erro, logs, trechos do código no Visual Studio Code, etc.>  
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Descrição do problema"
+      description: "Detalhe ao máximo o seu problema. Explique o que tentou fazer e o que não funcionou."
+      placeholder: "Descreva aqui..."
+    validations:
+      required: true
 
-💻 **Código:**  
-```javascript
-// Adicione aqui o trecho de código que deu erro
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "🖥️ Evidências"
+      description: "Adicione prints, mensagens de erro, logs ou trechos do código que possam ajudar na resolução."
+      placeholder: "Cole aqui as evidências..."
+  
+  - type: textarea
+    id: code
+    attributes:
+      label: "💻 Código"
+      description: "Cole aqui o trecho de código relevante ao problema."
+      render: "javascript"
+      placeholder: "// Adicione aqui o trecho de código que deu erro"
+  
+  - type: input
+    id: repository
+    attributes:
+      label: "🔗 Repositório (opcional)"
+      description: "Se aplicável, insira o link do seu repositório no GitHub."
+      placeholder: "https://github.com/seu-repo"
+  
+  - type: textarea
+    id: attempts
+    attributes:
+      label: "📌 O que você já tentou?"
+      description: "Liste as tentativas que já fez para resolver o problema, como pesquisas no Google, documentação, testes alternativos, etc."
+  
+  - type: textarea
+    id: expected_vs_obtained
+    attributes:
+      label: "👀 Esperado vs. Obtido"
+      description: "Descreva o comportamento esperado e o que realmente aconteceu."
+      placeholder: "✅ Esperado: ...\n❌ Obtido: ..."
+  
+  - type: markdown
+    attributes:
+      value: "🚀 **Ajude a comunidade!**\nSe sua dúvida for resolvida, **não esqueça de marcar a resposta como correta** para ajudar outros alunos no futuro! 🎯💡"
