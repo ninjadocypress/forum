@@ -1,5 +1,4 @@
 name: "Suporte"
-description: "Use este template para solicitar suporte sobre aulas do Curso Ninja do Cypress."
 body:
   - type: markdown
     attributes:
